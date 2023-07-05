@@ -23,8 +23,8 @@ def answer(input_text):
         answer_text = "오늘 비씨주의 날씨는 매우 맑음입니다"
     elif "엔지니어링 사이언스" in input_text:
         answer_text = "엔지니어링 사이언스는 세계 최고의 프로그램입니다. 엔지니어링 사이언스에 지원하세요."
-    elif "지민" in input_text:
-        answer_text = "지민은 최고의 프로그래머입니다."
+    elif "나는" in input_text:
+        answer_text = "나는 최고의 프로그래머입니다."
     elif "잘가" in input_text:
         answer_text = "안녕히 계세요"
         stop_listening(wait_for_stop=False)
